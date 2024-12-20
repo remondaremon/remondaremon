@@ -1,0 +1,519 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: cairo, serif;
+}
+
+
+
+.cairo-uniquifier {
+  font-family: "Cairo", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings;
+}
+
+header nav{
+         height:25px;
+         background-color: black;
+         display: flex;
+         justify-content: end;
+         align-items: center;
+    
+         padding-right: 30px;
+         padding-left: 30px;
+}
+
+.phone a{
+    color: azure;
+    text-decoration: none;
+    padding-right: 20px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.phone button{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding:2px;  
+   padding-left: 4px;
+   padding-right: 4px;
+    text-align: center;
+    align-items: center;
+    background-color: rgba(167, 167, 212, 0.928);
+    font-weight: bold;
+    filter: drop-shadow(2px 2px 2px 2px rgb(255, 255, 255));
+}
+
+.phone button:hover{
+    color: rgb(255, 255, 255);
+ 
+    background-color: rgba(198, 198, 208, 0.669);
+
+    filter: drop-shadow(2px 2px 2px 2px rgb(255, 255, 255));
+}
+
+.header2 nav{
+    background-color: #fdfdfd;
+    height: 60px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.header2 nav .logo{
+   width: 80px;
+   height: 40px;
+   overflow: hidden;
+   border: 2px solid black;
+   border-radius:10px ;
+  
+
+}
+
+.header2 nav .logo img{
+    width: 80px;
+    height: 40px;
+   
+ }
+.links a{
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+
+.links a:hover{
+    color: rgb(70, 70, 127);
+    border-bottom: 3px solid rgb(70, 70, 127);
+    padding-bottom: 13px;
+}
+.links .a1 {
+    margin-right: 15px;
+    text-decoration: none;
+    color: rgb(70, 70, 127);
+    font-size:x-large;
+    font-weight: bold;
+    border-bottom: 3px solid rgb(70, 70, 127);
+    padding-bottom: 13px;
+}
+
+.section-one{
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+
+  
+}
+
+.section-one h1{
+    font-size: 55px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    
+}
+
+.section-one p{
+   font-size: large;
+   margin-bottom: 55px;
+   color: rgb(255, 255, 255);
+}
+
+.section-one button{
+    background-color: rgb(204, 198, 191);
+    font-size: x-large;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+ 
+ }
+
+
+ .section-one button:hover{
+    background-color: rgba(168, 171, 203, 0.897);
+    color: white;
+ }
+
+.section-two{
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.section-two h1{
+     font-size: 50px;
+    padding: 30px;
+    margin-top: 10px;
+}
+
+.section-two .light{
+    color: rgb(70, 70, 127);
+}
+.cardes{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.cardes .card{
+    height: 220px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-right: 50px;
+    padding-left: 50px;
+     padding: 10px;
+}   
+
+.cardes .card:hover{
+    background-color: rgb(217, 216, 215);
+    border-radius: 20px;
+} 
+.cardes .card a{
+    color: white;
+    background-color: rgb(70, 70, 127);
+    text-decoration: none;
+    font-size: 45px;
+    font-weight: bold;
+     padding: 30px;
+     border-radius: 50%;
+     margin-bottom: 10px;
+}   
+
+
+.cardes .card h2{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5px;
+    margin-bottom: 5px;
+} 
+
+
+.cardes .card p{
+    text-decoration: none;
+    font-size: medium;
+    font-weight: bold;
+    color: rgb(53, 47, 47);
+    margin-bottom: 10px;
+} 
+
+
+.section-three{
+    background-color: rgba(215, 215, 205, 0.648);
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+
+.section-three .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.box .img-box{
+    height: 300px;
+    width: 500px;
+    overflow: hidden;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+
+.box .img-box img{
+    height: 300px;
+    width: 500px;
+  
+}
+
+
+.box .info{
+    text-align: right;
+    width: 50%;
+    overflow: hidden;
+    padding: 60px;
+   
+}
+
+
+.box .info p{
+   font-size: large;
+   font-weight: bold;
+   margin-bottom: 35px;
+}
+
+.box .info a{
+    color: white;
+    background-image: linear-gradient(rgb(70, 70, 127), rgb(133, 133, 160));
+    text-decoration: none;
+    font-size: large;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+ }
+
+
+ .box .info a:hover{
+    color: white;
+    background-image: linear-gradient(rgb(153, 153, 156), rgb(84, 87, 92));
+   
+ }
+
+
+.section-three h1{
+    font-size: 50px;
+   padding: 10px;
+  
+}
+
+.section-three .light{
+    color: rgb(70, 70, 127);
+}
+
+
+.section-four{
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.section-four h1{
+    font-size: 50px;
+    padding: 10px;
+}
+
+
+.section-four .light{
+     color: rgb(70, 70, 127); 
+}
+
+.section-four p{
+    font-size: 25px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+
+
+
+.cardes1{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    margin-top: 20px;
+    
+}
+
+
+
+.cardes1 .card1{
+    background-color: rgb(199, 201, 240);
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-right: 20px;
+    padding: 10px;
+     position: relative;
+     border-radius:8px ;
+}   
+
+
+
+
+
+.cardes1 .card1:hover{
+    background-color: rgba(155, 156, 167, 0.77);
+    
+  
+}   
+
+
+.cardes1 .card1 a{
+    color: white;
+    background-color: rgba(145, 133, 170, 0.936);
+    text-decoration: none;
+    font-size: 45px;
+    font-weight: bold;
+    padding: 10px;
+     border-radius: 50%;
+     margin-bottom: 30px;
+     position: absolute;
+    top: -40px;
+}   
+
+
+.cardes1 .card1 .a2{
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+    padding: 10px;
+     margin-bottom: 30px;
+   
+} 
+
+.cardes1 .card1 h2{
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 5px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+} 
+
+
+.cardes1 .card1 p{
+    text-decoration: none;
+    font-size: medium;
+    color: rgb(53, 47, 47);
+    margin-bottom: 5px;
+} 
+
+
+.cardes1 .card1 button{
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    background-color: rgb(70, 70, 127);
+    border-radius: 5px;
+    padding: 5px;
+    border:  rgb(70, 70, 127);
+} 
+
+.cardes1 .card1 button:hover{
+    color: black;
+    background-color: rgb(159, 159, 205);
+    
+} 
+
+
+
+
+
+
+
+
+footer{
+    
+        background-color: rgb(27, 27, 27);
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 30px;
+    
+}
+
+
+footer h1{
+    color: white;
+    font-size: 50px;
+    padding: 10px;
+}
+
+
+footer p{
+    color: rgb(196, 198, 199);
+    font-size: large;
+    padding: 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+.light{
+    color: rgb(149, 149, 216); 
+ }
+
+
+ footer .link .a3 {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+    margin-right: 20px;
+}
+
+
+footer .link .a3:hover {
+    color: rgb(151, 169, 239);
+  
+}
+
+
+footer .link .a4 {
+    color: rgb(151, 169, 239);
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: x-large;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+
+footer .photo{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+} 
+
+footer .photo .box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+}
+
+footer .photo .box1 img{
+    height: 150px;
+    width: 150px;
+}
